@@ -20,7 +20,7 @@ timezone:
 
 title: Aventuras de um cervejeiro # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Brewers Make Wort, Yeast Makes Beer # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Um blog destinado ao compartilhamento do conhecimento cervejeiro adquirido por meio de brassagens de um cervejeiro caseiro.

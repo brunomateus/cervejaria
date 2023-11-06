@@ -55,7 +55,7 @@ _Fervura. Foto do mosto fervendo._
 
 Realizei a diluição do mosto para bater a **OG** e de quebra ganhar alguns litros de cerveja final. Foram necessários 2L.
 
-![Whirpool](whirpool)
+![Whirpool](whirpool.jpg)
 _Foto durante o processo de resfriamento._
 
 

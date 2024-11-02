@@ -42,14 +42,6 @@ A lavagem foi o maior desafio nessa cerveja. Devido a grande quantidade de trigo
 
 Além disso, não bateu a densidade pré-fervura e OG pré-fervura.
 
-#### Fervura
-
-A fervura ocorreu dentro do normal, 2L de mosto foram perdidos na evarpoação, enquanto a previsão era de 2L. Esta foi outra mudança feita na configuração do equipamento.
-
-![Fervura do mosto ](fim_da_fervura.jpg)
-_Foto do final da fervura._
-
-
 #### Fermentação
 
 

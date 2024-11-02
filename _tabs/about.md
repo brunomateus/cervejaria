@@ -4,5 +4,5 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+Este site funciona como um diário de brassagem das minhas cervejas. Fiquem a vontade para entrar em contato.
+Estou disposto a conversa e compartilhar aprendizado e conhecimento. Saúde!

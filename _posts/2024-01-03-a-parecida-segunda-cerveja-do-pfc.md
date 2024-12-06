@@ -25,7 +25,7 @@ A seguir vejam a composição de malte que eu utilizei nessa receita:
 ![Lista de fermentáveis](fermentaveis.png)
 _Lista de maltes, a ideia era utiliza somente malte pale ale, porém adotei também o uso de malte pilsen para se manter dentro da cor adotada pelo estilo._
 
-![Parâmetros gerais do estilo](parametros.png)
+![Parâmetros gerais](parametros.png)
 _Parâmetros gerais, notem que para alcançar a cor que eu queria eu fiquei bem acima do estilo._
 
 ### A brassagem

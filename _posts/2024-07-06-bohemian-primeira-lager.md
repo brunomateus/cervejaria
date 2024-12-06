@@ -15,7 +15,7 @@ A cerveja alvo desta brassagem é a quinta cerveja do PFC. Durante as aulas do m
 
 A motivação para o estilo Czech Premium Pale Lager foi possibilidade de estudar a técnica tradicional de brassagem checa chamda de decocção, além do controle sobre a fermentação, processo que ganha ainda mais importância quando estamos produzindo uma cerveja lager tão delicada.
 
-De acordo com o BJCP de 2021, temos que uma *Czech Premium Pale Lager*deve ser:
+De acordo com o BJCP de 2021, temos que uma *Czech Premium Pale Lager* deve ser:
 
 >  Uma lager tcheca clara e refrescante com considerável caráter de malte e lúpulo e final prolongado. Os sabores de malte são complexos para uma cerveja do tipo Pilsner. O amargor é forte e limpo, mas sem aspereza, o que traz a impressão de um sabor arredondado e bem equilibrado, o que realça a facilidade em beber.
 
@@ -25,8 +25,7 @@ A seguir vejam a composição de malte que eu utilizei nessa receita:
 ![Lista de fermentáveis](fermentaveis.png)
 _Lista de maltes, base de malte pilsen com um pouco de malte meladoidina para simular o efeito da decocção._
 
-Parâmetros gerais do estilo
-
+Parâmetros gerais
 | Parâmetros | Estimado | Medido |
 |---|---|---|
 | OG | 1.048 | 1.045 |

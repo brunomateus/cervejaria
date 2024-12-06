@@ -21,7 +21,7 @@ A seguir vejam a composição de malte que eu utilizei nessa receita:
 ![Lista de fermentáveis](fermentaveis.png)
 _Lista de maltes. Reparem na quantidade de maltes especiais. A ideia era alcançar uma complexidade de aromas e sabores malte na cerveja pronta._
 
-Parâmetros gerais do estilo
+Parâmetros gerais
 
 | Parâmetros | Estimado | Medidos |
 |---|---|---|

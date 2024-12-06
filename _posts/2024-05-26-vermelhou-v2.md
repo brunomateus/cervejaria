@@ -14,7 +14,7 @@ Novamente, a cerveja alvo desta brassagem é a quarta cerveja do PFC. Na brassag
 
 A única mudança, foi a troca do malte pilsen por malte pale ale.
 
-De acordo com o  BJCP de 2021, temos que uma *irish red ale *deve ser:
+De acordo com o  BJCP de 2021, temos que uma *irish red ale* deve ser:
 
 >  Uma cerveja fácil de beber, muitas vezes com sabores sutis. Ligeiramente maltada no equilíbrio, às vezes com um dulçor inicial de toffee ou caramelo, no palato leve caráter de cereais e biscoito, no final um toque torrado seco. Algumas versões podem enfatizar mais o caramelo e o dulçor, enquanto outras favorecem no paladar cereais e torrado seco.
 A seguir vejam a composição de malte que eu utilizei nessa receita:
@@ -42,7 +42,7 @@ A lavagem ocorreu normalmente. Portanto, conclui que o problema era na moagem do
 
 
 ![Controle da fermentação](fermentacao.png)
-_A linha verde clara é a medição de bolhas por minuto do Plaato. A linha preta é a OG medida pelo Plaato. A linha azul escuro é a temperatur ado fermentador. A linha vermelha é a OG medida via referatômetro já corrigida e a linha laranja é a pressão no fermentador._
+_A linha verde clara é a medição de bolhas por minuto do Plaato. A linha preta é a OG medida pelo Plaato. A linha azul escuro é a temperatura do fermentador. A linha vermelha é a OG medida via referatômetro já corrigida e a linha laranja é a pressão no fermentador._
 
 ### A cerveja no copo
 

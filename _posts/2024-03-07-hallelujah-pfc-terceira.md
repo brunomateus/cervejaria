@@ -46,7 +46,7 @@ Além disso, não bateu a densidade pré-fervura e OG pré-fervura.
 
 
 ![Controle da fermentação](fermentacao.png)
-_A linha verde clara é a medição de bolhas por minuto do Plaato. A linha preta é a OG medida pelo Plaato. A linha azul escuro é a temperatur ado fermentador. A linha vermelha é a OG medida via referatômetro já corrigida e a linha laranja é a pressão no fermentador.
+_A linha verde clara é a medição de bolhas por minuto do Plaato. A linha preta é a OG medida pelo Plaato. A linha azul escuro é a temperatura do fermentador. A linha vermelha é a OG medida via referatômetro já corrigida e a linha laranja é a pressão no fermentador._
 
 ### A cerveja no copo
 

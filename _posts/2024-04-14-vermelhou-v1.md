@@ -12,10 +12,10 @@ Nesta postagem vamos falar da quarta cerveja do [Programa de Formação Cervejei
 
 A cerveja alvo desta brassagem é a quarta cerveja do PFC. Durante as aulas do módulo tratamos de enteder melhor o estilo analisando o [BJCP](https://bjcp-brasil.github.io/bjcp-2021-pt-br/#a.-irish-red-ale) e outra fontes de pesquisa. Além disso, para criar a nossa receita, avaliamos algumas receitas vencedoras de concurso da [Brewers Associantion](https://www.brewersassociation.org/).
 
-A motivação para o estilo Irish Red ale ter sido o escolhido é a possibilidade em técnicas para favorecer a clarificação de cervejas, assim com o estilo em questão pede.
+A motivação para o estilo Irish Red ale ter sido o escolhido é a possibilidade realizar um aprofundamento em técnicas voltadas para a clarificação de cervejas, assim com o estilo em questão pede.
 
 
-De acordo com o  BJCP de 2021, temos que uma *irish red ale *deve ser:
+De acordo com o  BJCP de 2021, temos que uma *irish red ale* deve ser:
 
 >  Uma cerveja fácil de beber, muitas vezes com sabores sutis. Ligeiramente maltada no equilíbrio, às vezes com um dulçor inicial de toffee ou caramelo, no palato leve caráter de cereais e biscoito, no final um toque torrado seco. Algumas versões podem enfatizar mais o caramelo e o dulçor, enquanto outras favorecem no paladar cereais e torrado seco.
 A seguir vejam a composição de malte que eu utilizei nessa receita:
@@ -45,7 +45,7 @@ Mais uma vez os parâmetros pré-fervura não bateram. A OG ficou bem abaixo.
 
 
 ![Controle da fermentação](fermentacao.png)
-_A linha verde clara é a medição de bolhas por minuto do Plaato. A linha preta é a OG medida pelo Plaato. A linha azul escuro é a temperatur ado fermentador. A linha vermelha é a OG medida via referatômetro já corrigida e a linha laranja é a pressão no fermentador.
+_A linha verde clara é a medição de bolhas por minuto do Plaato. A linha preta é a OG medida pelo Plaato. A linha azul escuro é a temperatura do fermentador. A linha vermelha é a OG medida via referatômetro já corrigida e a linha laranja é a pressão no fermentador._
 
 ### A cerveja no copo
 

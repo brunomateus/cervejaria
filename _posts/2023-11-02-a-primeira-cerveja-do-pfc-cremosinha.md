@@ -55,7 +55,7 @@ Foi meu primeiro teste usando o Plaato e algo não funcionou bem. No início da 
 
 
 ![Controle da fermentação](fermentacao.png)
-_A linha verde clara é a medição de bolhas por minuto do Plaato. A linha azual clara é a medição da temperatura externa ao fermentador medida pelo Plaato, no meu caso é algo inútil. A linha preta é a OG medida pelo Plaato. A linha azul escuro é a temperatur ado fermentador. A linha vermelha é a OG medida via referatômetro já corrigida e a linha laranja é a pressão no fermentador.
+_A linha verde clara é a medição de bolhas por minuto do Plaato. A linha azual clara é a medição da temperatura externa ao fermentador medida pelo Plaato, no meu caso é algo inútil. A linha preta é a OG medida pelo Plaato. A linha azul escuro é a temperatura do fermentador. A linha vermelha é a OG medida via referatômetro já corrigida e a linha laranja é a pressão no fermentador._
 
 
 ### Pontos a melhorar

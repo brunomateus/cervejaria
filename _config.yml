@@ -135,6 +135,9 @@ collections:
   tabs:
     output: true
     sort_by: order
+  avaliacoes:
+    output: true
+    sort_by: date
 
 defaults:
   - scope:

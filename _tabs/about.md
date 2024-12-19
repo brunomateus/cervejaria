@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 5
 ---
 
 Este site funciona como um diário de brassagem das minhas cervejas. Fiquem a vontade para entrar em contato.

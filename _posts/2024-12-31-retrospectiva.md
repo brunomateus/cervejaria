@@ -13,7 +13,7 @@ Mais um ano se passou e vamos ao balanço cervejeiro de 2024.
 
 #### Consumo
 
-Tenho usado cada vez menos o <a href="untappd.com" target="_blank">Untappd</a>, mas vamos aos dados apontados por ele.
+Tenho usado cada vez menos o <a href="http://www.untappd.com" target="_blank">Untappd</a>, mas vamos aos dados apontados por ele.
 
 Em **2024**, bebi **101 novas cervejas**, de **55 estilos diferentes**,  ainda as **IPAs** foram as cervejas mais consumidas. As cervejas consumidas foram distribuídas em **44 cervejarias**. Devido ao clube <a href="https://hopmundi.com.br/vintage-hop/"> Vintage Hop</a>, a **HopMundi** foi a cervejaria mais consumida no ano.
 

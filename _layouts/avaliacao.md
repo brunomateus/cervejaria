@@ -13,12 +13,13 @@ categories: [Concursos]
 {% endif %}
 {% if page.av2 %}
  {% assign number_of_evaluations = number_of_evaluations | plus: 1 %}
+ {% assign nota = av1Total | plus: av2Total | divided_by: 2 %}
 {% endif %}
 {% if page.av3 %}
  {% assign number_of_evaluations = number_of_evaluations | plus: 1 %}
+ {% assign nota = av1Total | plus: av2Total | plus: av3Total | divided_by: 3 %}
 {% endif %}
 
-{% assign nota = av1Total | plus: av2Total | plus: av3Total | divided_by: 3 %}
 
 <article>
     <header>

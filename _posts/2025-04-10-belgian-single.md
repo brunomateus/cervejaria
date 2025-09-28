@@ -9,6 +9,8 @@ img_path: /assets/img/brassagem-XVI/
 
 ### A cerveja - Serena
 
+<img src="rotulo.png" alt="[Rótula da Serena - Cortesia do Gemini" style="width: 50%; margin: auto">
+
 A cerveja alvo desta brassagem é uma *Belgian Single* um estilo não muito comum, mas que talvez tenha como a principal representante do estilo, uma cerveja icônica, a Westvleteren 6.
 Esta receita marca a minha última brassagem antes do upgrade de equipamento. Foram várias brassagens com minha Brewhome de 40L. Também foi minha primeira brassagem como homem casado :)
 

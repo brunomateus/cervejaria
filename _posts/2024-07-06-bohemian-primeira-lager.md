@@ -26,6 +26,7 @@ A seguir vejam a composição de malte que eu utilizei nessa receita:
 _Lista de maltes, base de malte pilsen com um pouco de malte meladoidina para simular o efeito da decocção._
 
 Parâmetros gerais
+
 | Parâmetros | Estimado | Medido |
 |---|---|---|
 | OG | 1.048 | 1.045 |

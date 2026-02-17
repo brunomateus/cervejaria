@@ -7,7 +7,7 @@ img_path: /assets/img/brassagem-XIX/
 ---
 
 
-### 🍺 A cerveja - São Bruno X
+### 🍺 A cerveja - Cramunhão
 
 <img src="rotulo.png" alt="[Rótula da São Bruno X  - Cortesia do Gemini" style="width: 50%; margin: auto">
 

@@ -1,7 +1,7 @@
 ---
 layout: avaliacao
-title: Cearense de cervejas caseiras - Devota
-concurso: Cearense de cervejas caseiras 
+title: Concurso Estadual de cervejeiros caseiros do Ceará 2026 - Cramunhão
+concurso: Concurso Estadual de cervejeiros caseiros do Ceará 2026 ACervA Cearense
 cerveja: Devota
 date: 2025-06-28
 av1:

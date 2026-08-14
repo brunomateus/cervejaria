@@ -124,14 +124,14 @@ A fermentação foi bem rápida. Menos de 48 horas. Em fermentação ativa, na t
 
 <figure style="margin: auto">
 	<video controls>
-    <source src="/cervejaria/assets/img/brassagem-XXII/dh.mp4" type="video/mp4">
+    <source src="/assets/img/brassagem-XXII/dh.mp4" type="video/mp4">
   </video>	
   <figcaption>Primeiro Dh. Feito em fermentação ativa em 22 graus.</figcaption>
 </figure>
 
 <figure style="margin: auto">
 	<video controls>
-    <source src="/cervejaria/assets/img/brassagem-XXII/dh2.mp4" type="video/mp4">
+    <source src="/assets/img/brassagem-XXII/dh2.mp4" type="video/mp4">
   </video>	
   <figcaption>Segundo DH, feito em temperatura de 4 graus.</figcaption>
 </figure>

@@ -121,14 +121,14 @@ Seguem alguns vídeos interessantes sobre o processo:
 
 <figure style="margin: auto">
 	<video controls>
-    <source src="/cervejaria/assets/img/brassagem-XXI/video1.mp4" type="video/mp4">
+    <source src="/assets/img/brassagem-XXI/video1.mp4" type="video/mp4">
   </video>	
   <figcaption>A cor começando a ser desenvolver</figcaption>
 </figure>
 
 <figure style="margin: auto">
 	<video controls>
-    <source src="/cervejaria/assets/img/brassagem-XXI/video2.mp4" type="video/mp4">
+    <source src="/assets/img/brassagem-XXI/video2.mp4" type="video/mp4">
   </video>	
   <figcaption>Processo próximo do fim</figcaption>
 </figure>
@@ -168,7 +168,7 @@ A fervura aconteceu normalmente, contudo a OG passou longe do estimado. Acredito
 
 <figure style="margin: auto">
 	<video controls>
-    <source src="/cervejaria/assets/img/brassagem-XXI/adicao_candi.mp4" type="video/mp4">
+    <source src="/assets/img/brassagem-XXI/adicao_candi.mp4" type="video/mp4">
   </video>	
   <figcaption>Adição dos adjuntos</figcaption>
 </figure>

@@ -213,6 +213,10 @@ _Mosto bem limpído indo para o fermentador._
 	<figcaption>Gostei bastante de cerveja. Ficou doce como o esperado, mas ela ficou complexa. Bem menos doce do que a Quadruplel da cervejaria Leopoldina. Ela ainda via melhorar bastante, porque é uma cerveja nova e potento. O primimg faz essa maravilha de espuma.</figcaption>
 </figure>
 
+<figure style="margin: auto">
+	<img src="/assets/img/brassagem-XXI/no-copo-2.jpg" alt="Cerveja maturada">
+	<figcaption>A mesma cerveja depois um longo período descansando no fermentador.</figcaption>
+</figure>
 <!--
 ![Foto da cerveja no copo](no_copo.jpg)
 _Foto da cerveja no copo._

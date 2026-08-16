@@ -70,9 +70,9 @@ If `_incoming/` is empty or has neither a JSON nor `notas.md`/photos, say what t
      8. `### 📝 Notas de produção`, with `####` subsections drafted from `notas.md` (typically Mostura, Lavagem, Fervura, Fermentação), each carrying its matched photo(s).
      9. `### 🍺 A cerveja no copo` — "Em breve trago atualizações." unless `notas.md`/a `no-copo` photo says otherwise.
      10. `### Pontos a melhorar` — checklist drafted from anything in `notas.md` flagged as a lesson learned; just the empty heading if nothing applies.
-   - Every image/video `src` stays a **literal root-relative path** — `/assets/img/brassagem-<ROMAN>/<filename>`. Never add a `/cervejaria` prefix, never wrap it in `relative_url` — `_plugins/baseurl-asset-fix.rb` rewrites it automatically at build time, locally and in production.
+   - Every image/video `src` stays a **literal path with no baseurl** — either `/assets/img/brassagem-<ROMAN>/<filename>` or `../assets/img/brassagem-<ROMAN>/<filename>` (the relative form is what the VS Code preview resolves inside raw HTML `<img>` tags; prefer it). Never add a `/cervejaria` prefix, never wrap it in `relative_url` — `_plugins/baseurl-asset-fix.rb` normalizes both forms and applies the baseurl at build time, locally and in production.
 
-9. **Move files.** Create `assets/img/brassagem-<ROMAN>/`, copy every photo/video from `_incoming/` there under its exact original filename.
+9. **Move files.** Create `assets/img/brassagem-<ROMAN>/`, copy every photo/video from `_incoming/` there under its exact original filename. Then run `./tools/otimizar-imagens.sh` to generate the web-sized variants under `assets/img/brassagem-<ROMAN>/web/` — the originals stay in the repo as backup, and `_plugins/web-image-variants.rb` publishes the variants in their place. Both the originals and the variants get committed; never reference a `web/` path from the post itself.
 
 10. **Clean up `_incoming/`.** Only after the post file and every image have been written successfully: delete the JSON, the photos/videos, and `notas.md` from `_incoming/`.
 
@@ -96,7 +96,7 @@ Triggers when `_incoming/` has no JSON export — only `notas.md` (reusing the s
    - `### 🍺 A cerveja no copo`: replace "Em breve trago atualizações." with the text drafted from `notas.md`'s `## A cerveja no copo` section.
    - `### ⚖️ Comparativo: Estimado × Medido`: fill FG from `notas.md`. Compute ABV as `(OG − FG) × 131.25` from the OG already in the table and the new FG. Fill IBU/EBC only if `notas.md` states a measured value; otherwise they stay `—` — these normally aren't lab-measured by a homebrewer, so don't invent a number.
 
-4. **Place any photos/videos** using the same filename vocabulary as step 7 of the *novo post* flow — copy into the post's existing `assets/img/brassagem-<ROMAN>/` folder (create it only if it's somehow missing) and reference from the matching section.
+4. **Place any photos/videos** using the same filename vocabulary as step 7 of the *novo post* flow — copy into the post's existing `assets/img/brassagem-<ROMAN>/` folder (create it only if it's somehow missing) and reference from the matching section. Run `./tools/otimizar-imagens.sh` afterwards, as in step 9 of the *novo post* flow.
 
 5. **Clear the flag.** Remove `fermentacao_pendente: true` from the post's frontmatter entirely — this run closes out the pending work. (If a later drop only ever brings photos with no text left to change, this is still the run that removes the flag, the first time notas.md content is fully resolved.)
 

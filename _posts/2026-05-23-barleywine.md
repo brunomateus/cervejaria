@@ -8,7 +8,7 @@ tags: [receita, barleywine]
 
 ### 🍺 A cerveja - Barley Heart
 
-<img src="/assets/img/brassagem-XXVI/rotulo.png" alt="[Rótulo da Barley Heart  - Cortesia do chatgpt" style="width: 50%; margin: auto">
+<img src="../assets/img/brassagem-XXVI/rotulo.png" alt="[Rótulo da Barley Heart  - Cortesia do chatgpt" style="width: 50%; margin: auto">
 
 A cerveja alvo desta brassagem é uma *Barley Wine*. Depois de muito tempo, voltando a brassar uma cerveja do <a href="https://beerschool.com.br/pfc-v261" target="_blank">PFC</a>. A barley wine é a mais intensa dentre as cervejas do curso e por isso ela é a última cerveja, a cerveja de número 8.
 
@@ -71,15 +71,9 @@ Lupulagem focada exclusivamente em amargor utilizando Hallertau Magnum, variedad
 
 * **Nome:** London Ale.
 * **Laboratório:** Levteck
-* **Quantidade usada no lote:** Stater de 4L a partir de 1 pacote.
+* **Quantidade usada no lote:** Lama da cerveja anterior.
 * **Attenuation (informada):** \~71-75%
 * **Temperatura mínima/máxima indicada:** \~18–24 °C.&#x20;
-
-<figure style="margin: auto">
-	<img src="/assets/img/brassagem-XXI/lama.jpg" alt="Início do proceso de preparo do candi sugar">
-	<figcaption>Lama utilizda na fermentação desta cerveja</figcaption>
-</figure>
-
 
 
 ### ⚖️ Comparativo: Estimado (receita) × Medido (lote)
@@ -88,13 +82,11 @@ Lupulagem focada exclusivamente em amargor utilizando Hallertau Magnum, variedad
 | Parâmetro | Estimado | Medido |
 | --------- | -------- | ------ |
 | OG        | 1.097    | 1,080  |
-| FG        | 1.021    | —      |
-| ABV       | —        | 10,0%  |
+| FG        | 1.021    | 1,017      |
+| ABV       | 10%      | 8,4%  |
 | IBU       | 54       | 76     |
 | EBC       | 22,1     | —      |
 
-
-A receita ficou bem desequlibrada visto que eu acabei fermento 30 minutos a mais e adição de lúpulo contava com 60 minutos de fervura e não 90. Agora é esperar o resultado final no copo.
 
 ### 📝 Notas de produção
 
@@ -104,8 +96,13 @@ Pela primeira vez não tive dificuldades em chegar na temparatura de sacarifica�
 
 
 <figure style="margin: auto">
-	<img src="/assets/img/brassagem-XXVI/mostura.jpg" alt="Foto do início da mostura">
+	<img src="../assets/img/brassagem-XXVI/mostura.jpg" alt="Foto do início da mostura">
 	<figcaption>Início do processo de mostura</figcaption>
+</figure>
+
+<figure style="margin: auto">
+	<img src="../assets/img/brassagem-XXVI/mostura_no_limite.jpg" alt="Foto do início da mostura">
+	<figcaption>Percebam que panela ficou no limite</figcaption>
 </figure>
 
 #### Lavagem
@@ -127,17 +124,18 @@ Eu já havia decidido fazer mais caramelo, contudo, pelo jeito não vou precisar
 O problema de ter fervido 30 minutos a mais é que eu já havia adicionado os lúpulos, logo extrai mais amargor do que o previsto na receita.
 
 <figure style="margin: auto">
-	<img src="/assets/img/brassagem-XXIV/fervura.jpg" alt="Foto durante a fervura">
+	<img src="../assets/img/brassagem-XXVI/fervura.jpg" alt="Foto durante a fervura">
 	<figcaption>Fervura acontecendo</figcaption>
 </figure>
 
+A receita ficou bem desequlibrada visto que eu acabei fermento 30 minutos a mais e adição de lúpulo contava com 60 minutos de fervura e não 90. Agora é esperar o resultado final no copo.
 
 #### Fermentação
 
-A fermentação começou bem, contudo não cheguei na atenuação mínima estimada pela LevTeck. Ainda não sei o que aconteceu. Normalmente, as minhas fermetações chegam próximo do máximo estimado e às vezes até superam esse valor. Espero que a cerveja não perca o equilíbrio por conta disso.
+
 
 <figure style="margin: auto">
-	<img src="/assets/img/brassagem-XXIV/fermentacao.png" alt="Gráfico da fermentação">
+	<img src="../assets/img/brassagem-XXVI/fermentacao.png" alt="Gráfico da fermentação">
 	<figcaption>A linha azul escuro é a temperatura do fermentador. A linha vermelha é a OG medida via referatômetro já corrigida e a linha laranja é a pressão no fermentador. A linha verde representa a atividade da levedura estimada por meio da contagem de bolhas por minuto.
 </figcaption>
 </figure>
@@ -145,38 +143,21 @@ A fermentação começou bem, contudo não cheguei na atenuação mínima estima
 
 __
 
-<!--
-#### Transferência pro fermentador
-
-Um dos meus objetivos com essa cerveja era produzir uma cerveja bem limpída, sem turbidez. Pela a amostra do mosto que foi para o fermentador, parece que deu certo.
-
-![Transferência para o fermentador](transferencia.jpg)
-_Mosto bem limpído indo para o fermentador._
-
--->
-
-### "Parti-gyle"
-
-Aproveitando a lavagem dos grãos eu me programei para um segunda brassagem, produzindo um volume menor de Ordinary Bitter. Contudo, como adicionei mais 4kgs de malte pale ale, ao final da brassagem atingi parâmetros de um **Best bitter**. A mostura seguiu o perfil da **Strong Bitter** a lupulagem também mudando apenas as quantidades.
-
-A fermetação foi feita em temperatura ambiente dentro de um postmix pressurizado com um spuding valve.
-
+### 🍺 A cerveja no copo
 
 <figure style="margin: auto">
-	<img src="/assets/img/brassagem-XXIV/fermentacao2.png" alt="Gráfico da fermentação">
-	<figcaption>Estranhamente o comportamento da levedura se repetiu. Não atingiu a atenuação esperada.
+	<img src="../assets/img/brassagem-XXVI/no_copo.jpeg" alt="Cerveja envasadas com primming">
+	<figcaption>A cerveja ficou bem boa. Bem maltada, mas acredito que mais amargo do que o estilo pede.  O álcool ainda está um pouco agressivo. Contuado, eu acredito que o tempo irá melhorar bastante essa cerveja.</figcaption>
+</figure>
+
+<figure style="margin: auto">
+	<img src="../assets/img/brassagem-XXVI/dh_american.jpeg" alt="Cerveja envasadas com primming">
+	<figcaption>
+Aproveitei que a cerveja já estava mais amarga e separei uma parte e fiz um dry-hop. Durante o DH a cerveja estava bem aromática. Ainda não bebi depois que coloquei no postmix.
 </figcaption>
 </figure>
 
-### 🍺 A cerveja no copo
 
-Em breve trago atualizações.
-
-<!--<figure style="margin: auto">
-	<img src="/assets/img/brassagem-XXI/no-copo.jpg" alt="Cerveja envasadas com primming">
-	<figcaption>Gostei bastante de cerveja. Ficou doce como o esperado, mas ela ficou complexa. Bem menos doce do que a Quadruplel da cervejaria Leopoldina. Ela ainda via melhorar bastante, porque é uma cerveja nova e potento. O primimg faz essa maravilha de espuma.</figcaption>
-</figure>
--->
 <!--
 ![Foto da cerveja no copo](no_copo.jpg)
 _Foto da cerveja no copo._
@@ -186,6 +167,6 @@ _Foto da cerveja no copo._
 ### Pontos a melhorar
 
 - [ ] Lembrar de reduzir a eficiência quando for fazer **High gravity**
-- [ ] Utilizar **Double Mash** para fazer** High Gravity**
+- [ ] Utilizar **Double Mash** para fazer **High Gravity**
 
 

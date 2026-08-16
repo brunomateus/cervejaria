@@ -78,13 +78,6 @@ Lupulagem clássica inglesa utilizando Challenger, EKG e Fuggle, trazendo perfil
 * **Attenuation (informada):** \~71-75%
 * **Temperatura mínima/máxima indicada:** \~18–24 °C.&#x20;
 
-<figure style="margin: auto">
-	<img src="/assets/img/brassagem-XXI/lama.jpg" alt="Início do proceso de preaparo do candi sugar">
-	<figcaption>Lama utilizda na fermentação desta cerveja</figcaption>
-</figure>
-
-
-
 ### ⚖️ Comparativo: Estimado (receita) × Medido (lote)
 
 
@@ -130,7 +123,7 @@ A fervura aconteceu normalmente, contudo a OG passou ficou 3 pontos mais alta.  
 A fermentação começou bem, contudo não cheguei na atenuação mínima estimada pela LevTeck. Ainda não sei o que aconteceu. Normalmente, as minhas fermetações chegam próximo do máximo estimado e às vezes até superam esse valor. Espero que a cerveja não perca o equilíbrio por conta disso.
 
 <figure style="margin: auto">
-	<img src="/assets/img/brassagem-XXIV/fermentacao.png" alt="Gráfico da fermentação">
+	<img src="../assets/img/brassagem-XXIV/fermentacao.png" alt="Gráfico da fermentação">
 	<figcaption>A linha azul escuro é a temperatura do fermentador. A linha vermelha é a OG medida via referatômetro já corrigida e a linha laranja é a pressão no fermentador. A linha verde representa a atividade da levedura estimada por meio da contagem de bolhas por minuto.
 </figcaption>
 </figure>
@@ -163,7 +156,10 @@ A fermetação foi feita em temperatura ambiente dentro de um postmix pressuriza
 
 ### 🍺 A cerveja no copo
 
-Em breve trago atualizações.
+<figure style="margin: auto">
+	<img src="../assets/img/brassagem-XXIV/best_bitter_no_copo.jpg" alt="Cerveja envasadas com primming">
+	<figcaption>Gostei bastante de cerveja. Ficou melhor do que a Strong bitter. Menos intensa, mais equilibrada e mais fácil de beber. Ainda assim tem o aroma típico de uma bitter.</figcaption>
+</figure>
 
 <!--<figure style="margin: auto">
 	<img src="/assets/img/brassagem-XXI/no-copo.jpg" alt="Cerveja envasadas com primming">

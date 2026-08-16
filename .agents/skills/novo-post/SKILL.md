@@ -9,7 +9,7 @@ Turns a BrewFather recipe export + photos + short notes into a ready-to-review p
 
 ## Mode detection
 
-Everything needed lives in `assets/img/_incoming/` (gitignored staging, cleared at the end of a successful run). What's staged there decides the mode:
+Everything needed lives in `assets/_incoming/` (gitignored staging, cleared at the end of a successful run). What's staged there decides the mode:
 
 - **JSON export present** → *novo post* mode (below): a fresh Brassagem post from scratch.
 - **No JSON export** (only `notas.md` and/or photos/videos) → *finalizar* mode (below): completing a post that's still waiting on fermentation results.

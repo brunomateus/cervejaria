@@ -24,4 +24,4 @@ assets/js/dist
 .DS_Store
 
 # Staging area for /novo-post (BrewFather JSON, fotos, notas.md)
-assets/img/_incoming/
+assets/_incoming/

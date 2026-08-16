@@ -1,13 +1,21 @@
 #!/usr/bin/env python3
-"""Distill a BrewFather recipe JSON export into the data + markdown table
-snippets used by the blog's post template. Run standalone:
+"""Distill a BrewFather JSON export into the data + markdown table snippets
+used by the blog's post template. Run standalone:
 
     python3 extract_recipe.py path/to/Brewfather_RECIPE_*.json
+    python3 extract_recipe.py path/to/Brewfather_BATCH_*.json
+
+Both export shapes work: a RECIPE export carries the recipe at the top level,
+a BATCH export nests it under `.recipe` and wraps it in lote-level data. The
+tables always describe the *recipe* (what was planned), matching the blog
+template; a BATCH export additionally fills `meta.brew_date` and
+`meta.measured` so the post doesn't have to source those by hand.
 
 Prints a single JSON object to stdout: {"meta": {...}, "tables": {...}}.
 The `novo-post` skill reads this instead of the raw BrewFather export so a
 lot less gets fed into the model.
 """
+import datetime
 import json
 import re
 import sys
@@ -47,8 +55,8 @@ def fmt_temp(temp):
 
 
 def fmt_duration(minutes, unit="min"):
-    if minutes in (None, 0) and unit == "min":
-        return "0 min"
+    # "sem tempo definido" (None) e "adição no fim" (0) são coisas diferentes:
+    # o BrewFather deixa `time` nulo em misc que não é dosado por tempo.
     if minutes is None:
         return "—"
     if float(minutes).is_integer():
@@ -102,7 +110,7 @@ def build_mash(data):
     )
 
 
-BOIL_MISC_USES = {"Boil", "Aroma", "Whirlpool", "First Wort"}
+BOIL_MISC_USES = {"boil", "aroma", "whirlpool", "first wort"}
 
 
 def build_hops_and_spices(data):
@@ -122,7 +130,7 @@ def build_hops_and_spices(data):
             )
         )
     for m in data.get("miscs", []):
-        if m.get("use") not in BOIL_MISC_USES:
+        if (m.get("use") or "").strip().lower() not in BOIL_MISC_USES:
             continue
         time_unit = "dias" if m.get("timeIsDays") else "min"
         rows.append(
@@ -176,6 +184,47 @@ def build_yeast(data):
     return "\n".join(lines), y
 
 
+def unwrap_recipe(payload):
+    """Separa (receita, lote) aceitando os dois formatos de export.
+
+    Num BATCH export a receita vem aninhada em `.recipe`; num RECIPE export
+    ela já é a raiz. Devolve `(recipe, batch_or_None)`.
+    """
+    recipe = payload.get("recipe")
+    if isinstance(recipe, dict) and recipe.get("fermentables") is not None:
+        return recipe, payload
+    return payload, None
+
+
+# Campos do lote que são medições de verdade. `measuredAbv`/`measuredAttenuation`
+# ficam de fora de propósito: com a fermentação em curso o BrewFather os projeta
+# a partir de leituras parciais, e projeção não é medição.
+MEASURED_FIELDS = {
+    "og": "measuredOg",
+    "fg": "measuredFg",
+    "mash_ph": "measuredMashPh",
+    "pre_boil_gravity": "measuredPreBoilGravity",
+    "post_boil_gravity": "measuredPostBoilGravity",
+    "boil_size_l": "measuredBoilSize",
+}
+
+
+def build_measured(batch):
+    measured = {}
+    for key, source in MEASURED_FIELDS.items():
+        value = batch.get(source)
+        if value is not None:
+            measured[key] = value
+    return measured
+
+
+def brew_date(batch):
+    stamp = batch.get("brewDate")
+    if not stamp:
+        return None
+    return datetime.datetime.fromtimestamp(stamp / 1000).strftime("%Y-%m-%d")
+
+
 def build_estimado(data):
     def og_fg(v):
         return f"{v:.3f}" if v is not None else "—"
@@ -201,11 +250,22 @@ def build_estimado(data):
 
 def main():
     if len(sys.argv) != 2:
-        print("uso: extract_recipe.py <recipe.json>", file=sys.stderr)
+        print("uso: extract_recipe.py <recipe-ou-batch.json>", file=sys.stderr)
         sys.exit(1)
 
     with open(sys.argv[1], encoding="utf-8") as f:
-        data = json.load(f)
+        payload = json.load(f)
+
+    data, batch = unwrap_recipe(payload)
+
+    # Sem isto o modo de falha é silencioso: um export inesperado sai como um
+    # punhado de tabelas vazias, que é fácil de copiar pro post sem perceber.
+    if not data.get("fermentables"):
+        print(
+            f"aviso: nenhum fermentável encontrado em {sys.argv[1]} — "
+            "o export parece não ser um Brewfather RECIPE nem BATCH.",
+            file=sys.stderr,
+        )
 
     style = data.get("style") or {}
     fermentables_table, total_line = build_fermentables(data)
@@ -214,12 +274,18 @@ def main():
     bjcp_url = None
     is_bjcp_2021 = (style.get("styleGuide") or "").strip().upper() == "BJCP 2021"
     if is_bjcp_2021 and style.get("categoryNumber") and style.get("styleLetter") and style.get("category"):
-        cat_slug = f"{style['categoryNumber']}-{slugify(style['category'])}"
-        sub_slug = f"{style['categoryNumber'].lower()}{style['styleLetter'].lower()}-{slugify(style.get('name', ''))}"
+        # A categoria mantém o zero à esquerda ("05-pale-bitter-european-beer"),
+        # mas o estilo não ("5a-german-leichtbier", e não "05a-...").
+        cat_num = str(style["categoryNumber"])
+        cat_slug = f"{cat_num}-{slugify(style['category'])}"
+        sub_slug = f"{cat_num.lstrip('0') or '0'}{style['styleLetter'].lower()}-{slugify(style.get('name', ''))}"
         bjcp_url = f"https://bjcp-brasil.github.io/bjcp-2021-pt-br/{cat_slug}/{sub_slug}/"
 
     out = {
         "meta": {
+            "source": "batch" if batch else "recipe",
+            "brew_date": brew_date(batch) if batch else None,
+            "measured": build_measured(batch) if batch else {},
             "name": data.get("name"),
             "name_slug": slugify(data.get("name")),
             "batch_size_l": data.get("batchSize"),

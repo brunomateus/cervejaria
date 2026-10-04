@@ -3,7 +3,6 @@ title: Brassagem XXVII - German Leichtbier
 date: 2026-08-15
 categories: [Blogging, Brassagem]
 tags: [receita, leichtbier, lager]
-fermentacao_pendente: true
 ---
 
 
@@ -80,10 +79,10 @@ Lupulagem inteira em Hallertau Blanc, dividida entre amargor, sabor e uma adiç�
 | Parâmetro | Estimado | Medido |
 | --------- | -------- | ------ |
 | OG        | 1.030    | 1.033  |
-| FG        | 1.006    | —      |
-| ABV       | 3,15%    | —      |
-| IBU       | 21       | —      |
-| EBC       | 2,5      | —      |
+| FG        | 1.006    | 1.008  |
+| ABV       | 3,15%    | 3,3%   |
+| IBU       | 21       | 21     |
+| EBC       | 4,9      | 4,9    |
 
 
 ### 📝 Notas de produção
@@ -132,11 +131,24 @@ A OG medida no fim ficou em 1.033, um pouco acima do que a receita previa.
 
 A fermentação começou com a Czech Pils da Levteck, seguindo o plano de inocular baixo, a 10 graus, e subir aos poucos até o descanso do diacetil. Como o objetivo desta brassagem é justamente propagar essa levedura pra Bohemian Pilsner, o que mais me interessa aqui é chegar no fim com uma lama saudável e farta.
 
-Ainda está fermentando — em breve trago o desfecho.
+A fermentação começou errada. Infelizmente a levedura da Bohemian Pilsner não sobreviveu ao inóculo. Acredito que a propagação tenha dado errado e eu não percebi. Com alguma urgência propaguei a BF-16 da Angel Yeast. Adicionei com pelo menos 48 horas de atraso. Daí em diante a fermentação foi normal.
+
+<figure style="margin: auto">
+	<img src="../assets/img/brassagem-XXVII/fermentacao.png" alt="Gráfico da fermentação">
+	<figcaption>Gráfico da fermentação. A linha vermelha é a densidade medida via refratômetro já corrigida, a linha azul escuro é a temperatura do fermentador, a linha verde clara é a medição de bolhas por minuto do Plaato, a linha preta é a densidade medida pelo Plaato e a linha laranja é a pressão no fermentador. Percebam que a densidade fica parada até o dia 20, quando a nova levedura entra em ação.</figcaption>
+</figure>
+
 
 ### 🍺 A cerveja no copo
 
-Em breve trago atualizações.
+A cerveja ficou pronta. Apesar do tempo de armazenamento em Postmix ela não clarificou bem como eu esperava.
+No início achei que ela tinha ficado com um sulfuroso desagradável, mas pelo jeito o tempo resolveu esse problema.
+Me parece sem off-flavour. Entretanto, talvez por ter usado somente malte pilsen Agrária, que é bem neutro, achei
+que faltou personalidade pra essa cerveja. Nem mesmo o lúpulo usado chegou a sobressair.
+
+Por esse motivo, separei uma parte do lote e adicionei grãos de café inteiros de torra média diretamente no postmix.
+Depois de uma semana, o café já estava bem presente.
 
 ### Pontos a melhorar
 
+- [ ] Da próxima vez usar um malte pilsen com mais personalidade ou adicionar algum malte especial para compensar a neutralidade do malte pilsen.

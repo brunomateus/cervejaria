@@ -146,14 +146,21 @@ __
 ### 🍺 A cerveja no copo
 
 <figure style="margin: auto">
-	<img src="../assets/img/brassagem-XXVI/no_copo.jpeg" alt="Cerveja envasadas com primming">
+	<img src="../assets/img/brassagem-XXVI/no_copo.jpeg" alt="Cerveja pronta no copo">
 	<figcaption>A cerveja ficou bem boa. Bem maltada, mas acredito que mais amargo do que o estilo pede.  O álcool ainda está um pouco agressivo. Contuado, eu acredito que o tempo irá melhorar bastante essa cerveja.</figcaption>
 </figure>
 
 <figure style="margin: auto">
-	<img src="../assets/img/brassagem-XXVI/dh_american.jpeg" alt="Cerveja envasadas com primming">
+	<img src="../assets/img/brassagem-XXVI/dh_american.jpeg" alt="Lupúlo Experimental 472 usados no dry-hop">
 	<figcaption>
 Aproveitei que a cerveja já estava mais amarga e separei uma parte e fiz um dry-hop. Durante o DH a cerveja estava bem aromática. Ainda não bebi depois que coloquei no postmix.
+</figcaption>
+</figure>
+
+<figure style="margin: auto">
+	<img src="../assets/img/brassagem-XXVI/no_copo_2.jpeg" alt="Cerveja com dry-hop pronta copo. Uma taça teku cheia de cerveja.">
+	<figcaption>
+Foto da cerveja pronta com o DH. Ficou muito boa essa cerveja. O aroma trazido pelos lúpulos estão bem presentes, equilibrou bem o dulçor, amargos e o alto teor alcoólico. Para uma barley wine, achei que a drinkability ficou exclenete.
 </figcaption>
 </figure>
 

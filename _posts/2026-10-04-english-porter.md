@@ -3,7 +3,6 @@ title: Brassagem XXVIII - English Porter
 date: 2026-10-04
 categories: [Blogging, Brassagem]
 tags: [receita, english-porter, bingo]
-fermentacao_pendente: true
 ---
 
 
@@ -81,10 +80,10 @@ Fora do planejado, entraram mais 8 g de Magnum faltando 28 minutos para o fim da
 | Parâmetro | Estimado | Medido |
 | --------- | -------- | ------ |
 | OG        | 1.042    | 1.045  |
-| FG        | 1.013    | —      |
-| ABV       | 3,81%    | —      |
-| IBU       | 27       | —      |
-| EBC       | 23,0     | —      |
+| FG        | 1.013    | 1.011  |
+| ABV       | 3,81%    | 4,46%  |
+| IBU       | 27       | 24      |
+| EBC       | 45,5     | 43      |
 
 
 ### 📝 Notas de produção
@@ -143,12 +142,22 @@ A densidade ao fim da fervura ficou em 11.3 Brix, e sobraram 1.6L de trub.
 
 #### Fermentação
 
-Em breve trago atualizações.
+A fermentação aconteceu normalmente, mostrando que a propagação da levedura (o starter de 2.5L) foi bem feita. A densidade caiu rápido nos primeiros dias e estabilizou em 1.011 por volta do dia 11 de outubro, um pouco abaixo dos 1.013 estimados. Com a OG de 1.045, isso dá cerca de 4,46% de ABV.
+
+<figure style="margin: auto">
+	<img src="../assets/img/brassagem-XXVIII/fermentacao.png" alt="Gráfico da fermentação">
+	<figcaption>Gráfico da fermentação</figcaption>
+</figure>
 
 
 ### 🍺 A cerveja no copo
 
-Em breve trago atualizações.
+Como estou sem beber, não tive a oportunidade de degustá-la propriamente — provei somente para entender se a cerveja estava pronta. Minha impressão inicial é de uma cerveja de tonalidade marrom, com espuma branca, e tanto no aroma quanto no sabor é possível sentir um caramelo, um abiscoitado e um leve amendoado.
+
+<figure style="margin: auto">
+	<img src="../assets/img/brassagem-XXVIII/no_copo.jpg" alt="Foto da cerveja no copo">
+	<figcaption>A London Fog no copo</figcaption>
+</figure>
 
 ### Pontos a melhorar
 
